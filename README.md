@@ -1,42 +1,34 @@
-# PEDV S Nextclade dataset
+# PEDV S Nextclade dataset: 2011 G1/S-INDEL-root version
 
-This repository contains a custom Nextclade dataset for PEDV spike (S) sequences.
+This is the recommended current dataset version.
 
-The dataset is built from a 2011-sequence filtered PEDV S reference set. The filtered set was derived from the 2406-sequence source set after removing recombinant sequences and sequences with unclear sampling information. Clade labels are:
+- Dataset directory: `nextclade_dataset_pedv_s_2011_g1_sindel_root`
+- Zip: `nextclade_dataset_pedv_s_2011_g1_sindel_root.zip`
+- Windows zip: `nextclade_dataset_pedv_s_2011_g1_sindel_root_windows.zip`
+- Reference tree root: internal node `NODE_00141`, the monophyletic branch containing all G1a, G1b, and S-INDEL reference tips.
+- Tips: 2011
 
-- G1a
-- G1b
-- G2a
-- G2b
-- G2c
-- S-INDEL
+Root clade content:
 
-## Use in Nextclade Web
+- G1a: 5
+- G1b: 23
+- S-INDEL: 114
 
-After this repository is uploaded to GitHub, open:
+Validation against the 2011 known sequence set:
 
-```text
-https://clades.nextstrain.org/?dataset-url=gh:OWNER/REPOSITORY@main@/nextclade_dataset_pedv_s_2011_clades
-```
+- G1a: 5
+- G1b: 23
+- G2a: 533
+- G2b: 263
+- G2c: 1073
+- S-INDEL: 114
+- Blank clade calls: 0
+- Mismatches versus source clade labels: 0
 
-Replace `OWNER/REPOSITORY` with the GitHub repository path, for example:
+Display features:
 
-```text
-https://clades.nextstrain.org/?dataset-url=gh:your-name/PEDV-S-nextclade@main@/nextclade_dataset_pedv_s_2011_clades
-```
-
-Then upload unknown PEDV S sequences in FASTA format as query sequences.
-
-## Dataset files
-
-```text
-nextclade_dataset_pedv_s_2011_clades/
-  pathogen.json
-  reference.fasta
-  genome_annotation.gff3
-  tree.json
-```
-
-## Notes
-
-This dataset is intended for PEDV S sequences that are complete or near complete. Very short fragments, recombinant sequences, or sequences far outside the reference diversity may receive uncertain placements and should be interpreted together with QC metrics and tree position.
+- `tree` and `entropy` panels
+- S-gene annotation for amino acid and site-level display
+- default clade coloring
+- sampling date, collection date, host, and PEDV genotype colorings
+- default radial layout
