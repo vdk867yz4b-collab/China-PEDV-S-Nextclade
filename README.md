@@ -31,6 +31,7 @@ Display features:
 
 - `tree` and `entropy` panels
 - S-gene annotation for amino acid and site-level display
+- S amino acid branch mutations for entropy and amino acid site coloring
 - default clade coloring
 - sampling date, collection date, host, and PEDV genotype colorings
 - default radial layout
