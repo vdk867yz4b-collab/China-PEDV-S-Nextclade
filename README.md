@@ -1,11 +1,13 @@
-# PEDV S Nextclade dataset: 2011 G1/S-INDEL-root version
+# GenBank China PEDV S isolate Nextclade dataset
 
 This is the recommended current dataset version.
 
-- Dataset directory: `nextclade_dataset_pedv_s_2011_g1_sindel_root`
-- Zip: `nextclade_dataset_pedv_s_2011_g1_sindel_root.zip`
-- Windows zip: `nextclade_dataset_pedv_s_2011_g1_sindel_root_windows.zip`
-- Reference tree root: internal node `NODE_00141`, the monophyletic branch containing all G1a, G1b, and S-INDEL reference tips.
+- Dataset directory: `nextclade_dataset_pedv_s_genbank_china_isolates`
+- Zip: `nextclade_dataset_pedv_s_genbank_china_isolates.zip`
+- Windows zip: `nextclade_dataset_pedv_s_genbank_china_isolates_windows.zip`
+- Sequence source: GenBank China PEDV S isolate sequences
+- Filtered reference set: 2011 PEDV S sequences after removing recombinant sequences and sequences with unclear sampling information
+- Reference tree root: internal branch containing all G1a, G1b, and S-INDEL reference tips
 - Tips: 2011
 
 Root clade content:
@@ -32,3 +34,9 @@ Display features:
 - default clade coloring
 - sampling date, collection date, host, and PEDV genotype colorings
 - default radial layout
+
+Nextclade Web:
+
+```text
+https://clades.nextstrain.org/?dataset-url=gh:vdk867yz4b-collab/China-PEDV-S-Nextclade@main@/nextclade_dataset_pedv_s_genbank_china_isolates
+```

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "3.0.0",
   "attributes": {
-    "name": "PEDV S 2011 G1 and S-INDEL-root clade reference tree",
+    "name": "GenBank China PEDV S isolate Nextclade dataset",
     "reference name": "PEDV_S_ROOT",
     "biological reference": "JN547228.1 CH/S spike",
     "gene": "S",
