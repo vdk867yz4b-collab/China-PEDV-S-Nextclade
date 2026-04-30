@@ -42,14 +42,9 @@ Nextclade Web:
 https://clades.nextstrain.org/?dataset-url=gh:vdk867yz4b-collab/PEDV-S-nextclade@main@/nextclade_dataset_pedv_s_genbank_china_isolates
 ```
 
-Recommended GitHub repository name:
+Current Nextclade Web link:
 
 ```text
-China-PEDV-S-Nextclade
+https://clades.nextstrain.org/?dataset-url=gh:Chengyan611/China-PEDV-S-Nextclade@main@/nextclade_dataset_pedv_s_genbank_china_isolates
 ```
 
-If the repository is renamed in GitHub settings, the Nextclade Web link becomes:
-
-```text
-https://clades.nextstrain.org/?dataset-url=gh:vdk867yz4b-collab/China-PEDV-S-Nextclade@main@/nextclade_dataset_pedv_s_genbank_china_isolates
-```
