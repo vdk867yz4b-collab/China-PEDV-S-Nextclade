@@ -1,0 +1,4 @@
+*.json text eol=lf
+*.fasta text eol=lf
+*.gff3 text eol=lf
+*.md text eol=lf

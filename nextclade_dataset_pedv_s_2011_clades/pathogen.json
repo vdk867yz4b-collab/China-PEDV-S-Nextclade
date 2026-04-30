@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "PEDV S 2011 filtered clade dataset",
+    "reference name": "PEDV_S_ROOT",
+    "biological reference": "JN547228.1 CH/S spike",
+    "gene": "S",
+    "organism": "Porcine epidemic diarrhea virus"
+  },
+  "cdsOrderPreference": [
+    "S"
+  ],
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3",
+    "treeJson": "tree.json"
+  },
+  "qc": {
+    "missingData": {
+      "enabled": true,
+      "missingDataThreshold": 300.0,
+      "scoreBias": 10.0
+    },
+    "mixedSites": {
+      "enabled": true,
+      "mixedSitesThreshold": 20,
+      "scoreBias": 5.0
+    },
+    "privateMutations": {
+      "enabled": true,
+      "typical": 80.0,
+      "cutoff": 160.0,
+      "weightReversionSubstitutions": 1.0,
+      "weightLabeledSubstitutions": 1.0,
+      "weightUnlabeledSubstitutions": 1.0
+    },
+    "snpClusters": {
+      "enabled": false
+    },
+    "frameShifts": {
+      "enabled": true,
+      "scoreBias": 20.0
+    },
+    "stopCodons": {
+      "enabled": true,
+      "scoreBias": 75.0
+    }
+  },
+  "alignmentParams": {
+    "alignmentPreset": "default",
+    "minLength": 3000
+  }
+}

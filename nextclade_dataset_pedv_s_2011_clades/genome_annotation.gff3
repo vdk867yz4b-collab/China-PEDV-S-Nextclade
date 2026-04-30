@@ -1,0 +1,4 @@
+##gff-version 3
+##sequence-region PEDV_S_ROOT 1 4152
+PEDV_S_ROOT	PEDV-S	gene	1	4152	.	+	.	ID=gene-S;Name=S;gene=S
+PEDV_S_ROOT	PEDV-S	CDS	1	4152	.	+	0	ID=S;Parent=gene-S;Name=S;gene=S;product=spike protein
