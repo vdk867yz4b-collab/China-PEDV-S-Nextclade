@@ -1,0 +1,18 @@
+{
+  "filtered_sequence_records": 2011,
+  "tree_tip_labels": 2011,
+  "tree_internal_pure_labels": 1988,
+  "tree_internal_majority_labels": 21,
+  "tree_tips_total": 2011,
+  "tree_tips_without_clade": 0,
+  "root_gap_positions_filled": 0,
+  "clade_counts": {
+    "G2b": 263,
+    "G1b": 23,
+    "G2a": 533,
+    "S-INDEL": 114,
+    "G1a": 5,
+    "G2c": 1073
+  },
+  "tips_with_collection_date": 2011
+}

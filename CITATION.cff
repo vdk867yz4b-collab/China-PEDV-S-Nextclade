@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "China PEDV S Nextclade Dataset"
+message: "If you use this dataset, please cite this repository and the underlying GenBank records."
+type: dataset
+authors:
+  - family-names: "Cheng"
+    given-names: "Yan"
+repository-code: "https://github.com/Chengyan611/China-PEDV-S-Nextclade"
+url: "https://clades.nextstrain.org/?dataset-url=gh:Chengyan611/China-PEDV-S-Nextclade@main@/nextclade_dataset_pedv_s_genbank_china_isolates"
+date-released: "2026-05-07"
+version: "1.0.0"
+keywords:
+  - PEDV
+  - spike
+  - Nextclade
+  - Nextstrain
+  - GenBank
+  - China

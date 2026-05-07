@@ -2,3 +2,7 @@
 *.fasta text eol=lf
 *.gff3 text eol=lf
 *.md text eol=lf
+*.tsv text eol=lf
+*.nwk text eol=lf
+*.cff text eol=lf
+*.ps1 text eol=lf

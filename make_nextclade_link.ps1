@@ -4,6 +4,6 @@ param(
   [string]$Branch = "main"
 )
 
-$datasetPath = "nextclade_dataset_pedv_s_2011_clades"
+$datasetPath = "nextclade_dataset_pedv_s_genbank_china_isolates"
 $encoded = "gh:$Repo@$Branch@/$datasetPath"
 "https://clades.nextstrain.org/?dataset-url=$encoded"
