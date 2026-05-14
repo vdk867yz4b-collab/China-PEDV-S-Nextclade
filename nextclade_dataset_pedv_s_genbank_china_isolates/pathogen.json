@@ -2,10 +2,11 @@
   "schemaVersion": "3.0.0",
   "attributes": {
     "name": "GenBank China PEDV S isolate Nextclade dataset",
-    "reference name": "PEDV_S_ROOT",
-    "biological reference": "JN547228.1 CH/S spike",
+    "reference name": "PEDV_S_AJ1102",
+    "biological reference": "JX188454.1 AJ1102 spike",
     "gene": "S",
-    "organism": "Porcine epidemic diarrhea virus"
+    "organism": "Porcine epidemic diarrhea virus",
+    "dataset source": "China GenBank PEDV S isolates"
   },
   "cdsOrderPreference": [
     "S"

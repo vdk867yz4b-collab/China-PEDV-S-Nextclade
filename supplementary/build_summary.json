@@ -1,11 +1,11 @@
 {
+  "reference_accession": "JX188454.1",
+  "reference_strain": "AJ1102",
+  "reference_header": "JX188454.1_Porcine_epidemic_diarrhea_virus_strain_AJ1102_complete_genome",
+  "reference_coordinate_length": 4158,
+  "source_alignment_length": 4786,
+  "removed_reference_gap_columns": 628,
   "filtered_sequence_records": 2011,
-  "tree_tip_labels": 2011,
-  "tree_internal_pure_labels": 1988,
-  "tree_internal_majority_labels": 21,
-  "tree_tips_total": 2011,
-  "tree_tips_without_clade": 0,
-  "root_gap_positions_filled": 0,
   "clade_counts": {
     "G2b": 263,
     "G1b": 23,
@@ -14,5 +14,25 @@
     "G1a": 5,
     "G2c": 1073
   },
+  "root_child_clade_counts": [
+    {
+      "G1a": 5,
+      "G1b": 23,
+      "S-INDEL": 41
+    },
+    {
+      "S-INDEL": 73
+    },
+    {
+      "G2a": 533,
+      "G2b": 263,
+      "G2c": 1073
+    }
+  ],
+  "tree_tips_total": 2011,
+  "tree_tip_labels": 2011,
+  "tree_tips_without_clade": 0,
+  "tree_internal_pure_labels": 1988,
+  "tree_internal_majority_labels": 21,
   "tips_with_collection_date": 2011
 }

@@ -8,10 +8,11 @@
 | Dataset directory | `nextclade_dataset_pedv_s_genbank_china_isolates` |
 | Source | GenBank China PEDV S isolate sequences |
 | Final reference set | 2011 sequences |
-| Biological reference | `JN547228.1` |
-| Dataset reference name | `PEDV_S_ROOT` |
+| Biological reference | `JX188454.1`(AJ1102) |
+| Dataset reference name | `PEDV_S_AJ1102` |
+| Reference coordinate length | 4158 nt |
 | Gene annotation | S |
-| Rooting | Internal branch containing G1a,G1b,and S-INDEL reference tips |
+| Rooting | Root placed so G2 is separated from G1/S-INDEL |
 
 ## Clade Counts
 
@@ -36,6 +37,7 @@
 | S amino acid mutation data | Present |
 | Entropy panel support | Present |
 | Amino acid site coloring support | Present |
+| Nextclade CLI validation | Passed with `nextstrain/nextclade:3.16.0` |
 
 ## Recommended Checks After Each Update
 

@@ -36,7 +36,6 @@ It contains:
 - `reference.fasta`: S-gene reference sequence used by the dataset.
 - `genome_annotation.gff3`: S coding sequence annotation for amino acid translation and mutation display.
 - `tree.json`: Auspice v2 tree with clade labels, date metadata, and nucleotide/S amino acid branch mutations.
-- `sequences.fasta`: small example query FASTA file for testing the dataset.
 
 Supplementary build and curation files are in:
 
@@ -52,9 +51,10 @@ supplementary/
 | Gene | Spike(S) |
 | Source | GenBank China PEDV S isolate sequences |
 | Included sequences | 2011 |
-| Biological reference | JN547228.1 CH/S spike |
-| Dataset reference name | PEDV_S_ROOT |
-| Rooting strategy | Internal branch containing G1a,G1b,and S-INDEL reference tips |
+| Biological reference | JX188454.1 AJ1102 spike |
+| Dataset reference name | PEDV_S_AJ1102 |
+| Reference coordinate length | 4158 nt |
+| Rooting strategy | Root placed so the G2 branch is separated from G1/S-INDEL branches |
 | Main clades | G1a,G1b,G2a,G2b,G2c,S-INDEL |
 
 Validation against the curated source labels:

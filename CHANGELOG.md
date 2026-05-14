@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.1.0 - 2026-05-14
+
+Updated the dataset reference sequence from the G1 reference `JN547228.1` to the G2 reference `JX188454.1`(AJ1102).
+
+Changes:
+
+- rebuilt the reference coordinate system from AJ1102 non-gap columns(4158nt);
+- retained G1a,G1b,S-INDEL,G2a,G2b,and G2c in the reference tree;
+- rooted the tree so the G2 branch is separated from G1/S-INDEL branches;
+- regenerated nucleotide and S amino acid branch mutations with Augur;
+- removed undeclared example files from the dataset directory and moved examples to `examples/`;
+- validated the dataset with `nextstrain/nextclade:3.16.0`.
+
+Dataset summary:
+
+- 2011 curated GenBank China PEDV S sequences;
+- biological reference `JX188454.1`(AJ1102);
+- clades G1a,G1b,G2a,G2b,G2c,and S-INDEL;
+- zero blank clade calls in the reference tree.
+
 ## v1.0.0 - 2026-05-07
 
 Initial curated GitHub release for the China PEDV S Nextclade dataset.
