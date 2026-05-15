@@ -152,7 +152,7 @@ def main():
     display_defaults["color_by"] = "pedv_genotype"
     display_defaults["branch_label"] = "clade"
     display_defaults.pop("stream_label", None)
-    display_defaults["distance_measure"] = "num_date"
+    display_defaults["distance_measure"] = "div"
 
     rows = tip_rows(tree)
     write_frequency_metadata(rows)

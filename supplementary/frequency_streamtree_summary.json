@@ -28,7 +28,7 @@
   ],
   "display_defaults": {
     "color_by": "pedv_genotype",
-    "distance_measure": "num_date",
+    "distance_measure": "div",
     "layout": "rect",
     "branch_label": "clade",
     "map_triplicate": false,

@@ -36,7 +36,7 @@ auspice/china_pedv_s_genbank_tip-frequencies.json
 
 This sidecar filename intentionally matches the main Auspice tree filename. When the main file is `china_pedv_s_genbank.json`, Auspice looks for `china_pedv_s_genbank_tip-frequencies.json` in the same directory.
 
-Streamtree labels are included for exploratory use, but the default view is the standard rectangular time tree. This is easier to inspect for PEDV S because the genotype distribution is highly unbalanced and G2c contains many more sampled tips than the smaller G1/S-INDEL groups.
+Streamtree labels are included for exploratory use, but the default view is the standard rectangular divergence tree. This is easier to inspect for PEDV S because the genotype distribution is highly unbalanced, G2c contains many more sampled tips than the smaller G1/S-INDEL groups, and G2a is split across multiple pure subtrees rather than forming one clean stream.
 
 ## Dataset Contents
 
