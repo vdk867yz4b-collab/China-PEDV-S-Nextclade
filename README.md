@@ -26,7 +26,7 @@ examples/PEDV_S_example_queries.fasta
 
 The same tree can be viewed in Nextstrain/Auspice with genotype streamtree and genotype frequency-over-time panels:
 
-<https://nextstrain.org/fetch/raw.githubusercontent.com/Chengyan611/China-PEDV-S-Nextclade/main/auspice/china_pedv_s_genbank.json?c=pedv_genotype&streamLabel=pedv_genotype>
+<https://nextstrain.org/fetch/raw.githubusercontent.com/Chengyan611/China-PEDV-S-Nextclade/main/auspice/china_pedv_s_genbank.json?c=pedv_genotype>
 
 The frequency panel is provided by the sidecar file:
 
@@ -35,6 +35,8 @@ auspice/china_pedv_s_genbank_tip-frequencies.json
 ```
 
 This sidecar filename intentionally matches the main Auspice tree filename. When the main file is `china_pedv_s_genbank.json`, Auspice looks for `china_pedv_s_genbank_tip-frequencies.json` in the same directory.
+
+Streamtree labels are included for exploratory use, but the default view is the standard rectangular time tree. This is easier to inspect for PEDV S because the genotype distribution is highly unbalanced and G2c contains many more sampled tips than the smaller G1/S-INDEL groups.
 
 ## Dataset Contents
 

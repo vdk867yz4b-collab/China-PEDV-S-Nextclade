@@ -32,7 +32,6 @@
     "layout": "rect",
     "branch_label": "clade",
     "map_triplicate": false,
-    "transmission_lines": false,
-    "stream_label": "pedv_genotype"
+    "transmission_lines": false
   }
 }

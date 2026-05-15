@@ -9,7 +9,7 @@ Changes:
 - added `auspice/china_pedv_s_genbank_tip-frequencies.json` for the Auspice frequency-over-time panel;
 - added `auspice/china_pedv_s_genbank.json` as the Nextstrain/Auspice display copy;
 - added genotype-level `pedv_genotype` stream labels for streamtree visualization;
-- updated the default Auspice view to rectangular time layout colored by PEDV genotype;
+- updated the default Auspice view to rectangular time layout colored by PEDV genotype, without automatically enabling streamtree;
 - enabled `tree`, `frequencies`, and `entropy` panels in `tree.json`;
 - added reproducible frequency/streamtree helper script and metadata table.
 

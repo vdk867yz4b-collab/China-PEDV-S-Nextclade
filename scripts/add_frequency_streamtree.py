@@ -151,7 +151,7 @@ def main():
     display_defaults["layout"] = "rect"
     display_defaults["color_by"] = "pedv_genotype"
     display_defaults["branch_label"] = "clade"
-    display_defaults["stream_label"] = label_key
+    display_defaults.pop("stream_label", None)
     display_defaults["distance_measure"] = "num_date"
 
     rows = tip_rows(tree)

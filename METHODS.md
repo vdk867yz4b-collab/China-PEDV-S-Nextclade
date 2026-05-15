@@ -34,7 +34,7 @@ The exported `tree.json` includes:
 
 Tip frequency trajectories were generated with Augur 32.0.0 using the KDE method from the dated PEDV S reference tree and the curated collection-date metadata. The output was written as the Auspice sidecar file `china_pedv_s_genbank_tip-frequencies.json`, which enables the `frequencies` panel when the main dataset is loaded from `auspice/china_pedv_s_genbank.json`.
 
-The Auspice tree metadata were updated to include `tree`, `frequencies`, and `entropy` panels. A dedicated branch label named `pedv_genotype` was added to genotype-level stream starts, and `meta.stream_labels` was set to this field so Auspice can display a streamtree similar in concept to the dengue Nextstrain datasets.
+The Auspice tree metadata were updated to include `tree`, `frequencies`, and `entropy` panels. A dedicated branch label named `pedv_genotype` was added to genotype-level stream starts, and `meta.stream_labels` was set to this field so Auspice can display a streamtree similar in concept to the dengue Nextstrain datasets. The default view remains the standard rectangular time tree because the PEDV S genotype sample sizes are highly unbalanced, making a default streamtree less readable.
 
 ## Clade Curation
 
