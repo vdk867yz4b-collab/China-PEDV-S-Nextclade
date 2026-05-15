@@ -27,7 +27,14 @@ The exported `tree.json` includes:
 - tip metadata for clade and date visualization;
 - nucleotide branch mutations;
 - S amino acid branch mutations;
-- S-gene annotation for amino acid mutation display and entropy visualization.
+- S-gene annotation for amino acid mutation display and entropy visualization;
+- an Auspice streamtree label based on PEDV genotype.
+
+## Frequency and Streamtree Visualization
+
+Tip frequency trajectories were generated with Augur 32.0.0 using the KDE method from the dated PEDV S reference tree and the curated collection-date metadata. The output was written as the Auspice sidecar file `china_pedv_s_genbank_tip-frequencies.json`, which enables the `frequencies` panel when the main dataset is loaded from `auspice/china_pedv_s_genbank.json`.
+
+The Auspice tree metadata were updated to include `tree`, `frequencies`, and `entropy` panels. A dedicated branch label named `pedv_genotype` was added to genotype-level stream starts, and `meta.stream_labels` was set to this field so Auspice can display a streamtree similar in concept to the dengue Nextstrain datasets.
 
 ## Clade Curation
 
@@ -53,6 +60,8 @@ The Nextclade dataset directory contains the standard files needed by Nextclade 
 
 Additional curation outputs are stored in `supplementary/`.
 
+The Auspice display copy and frequency sidecar are stored in `auspice/`.
+
 ## Reproducibility
 
-The repository stores the final dataset files, the supplementary curation tables, and the update script used to rebuild the AJ1102-reference dataset. The current build was generated with Docker image `nextstrain/base` using Augur 32.0.0 and validated with `nextstrain/nextclade:3.16.0`.
+The repository stores the final dataset files, the supplementary curation tables, and the update scripts used to rebuild the AJ1102-reference dataset and add the Auspice frequency/streamtree configuration. The current build was generated with Docker image `nextstrain/base` using Augur 32.0.0 and validated with `nextstrain/nextclade:3.16.0`.

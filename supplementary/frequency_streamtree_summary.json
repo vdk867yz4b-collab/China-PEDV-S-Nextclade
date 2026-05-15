@@ -1,0 +1,38 @@
+{
+  "updated": "2026-05-15",
+  "frequency_metadata": "supplementary/frequency_metadata.tsv",
+  "auspice_tree": "auspice/china_pedv_s_genbank.json",
+  "auspice_tip_frequencies": "auspice/china_pedv_s_genbank_tip-frequencies.json",
+  "tips_with_frequency_metadata": 2011,
+  "tip_genotype_counts": {
+    "G1a": 5,
+    "G1b": 23,
+    "S-INDEL": 114,
+    "G2a": 533,
+    "G2b": 263,
+    "G2c": 1073
+  },
+  "stream_label_key": "pedv_genotype",
+  "stream_label_counts": {
+    "G1a": 2,
+    "G1b": 1,
+    "S-INDEL": 2,
+    "G2a": 14,
+    "G2b": 1,
+    "G2c": 1
+  },
+  "panels": [
+    "tree",
+    "frequencies",
+    "entropy"
+  ],
+  "display_defaults": {
+    "color_by": "pedv_genotype",
+    "distance_measure": "num_date",
+    "layout": "rect",
+    "branch_label": "clade",
+    "map_triplicate": false,
+    "transmission_lines": false,
+    "stream_label": "pedv_genotype"
+  }
+}

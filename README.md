@@ -22,6 +22,20 @@ Example query sequences are provided in:
 examples/PEDV_S_example_queries.fasta
 ```
 
+## Use in Nextstrain Auspice
+
+The same tree can be viewed in Nextstrain/Auspice with genotype streamtree and genotype frequency-over-time panels:
+
+<https://nextstrain.org/fetch/raw.githubusercontent.com/Chengyan611/China-PEDV-S-Nextclade/main/auspice/china_pedv_s_genbank.json?c=pedv_genotype&streamLabel=pedv_genotype>
+
+The frequency panel is provided by the sidecar file:
+
+```text
+auspice/china_pedv_s_genbank_tip-frequencies.json
+```
+
+This sidecar filename intentionally matches the main Auspice tree filename. When the main file is `china_pedv_s_genbank.json`, Auspice looks for `china_pedv_s_genbank_tip-frequencies.json` in the same directory.
+
 ## Dataset Contents
 
 The Nextclade dataset is in:
@@ -36,6 +50,17 @@ It contains:
 - `reference.fasta`: S-gene reference sequence used by the dataset.
 - `genome_annotation.gff3`: S coding sequence annotation for amino acid translation and mutation display.
 - `tree.json`: Auspice v2 tree with clade labels, date metadata, and nucleotide/S amino acid branch mutations.
+
+The Auspice display files are in:
+
+```text
+auspice/
+```
+
+It contains:
+
+- `china_pedv_s_genbank.json`: Auspice v2 tree configured for genotype streamtree and frequency display.
+- `china_pedv_s_genbank_tip-frequencies.json`: Auspice sidecar file for genotype frequency-over-time display.
 
 Supplementary build and curation files are in:
 
@@ -77,6 +102,8 @@ This dataset is suitable for:
 - preliminary PEDV S genotype assignment;
 - visual placement of query sequences in a curated PEDV S reference tree;
 - inspection of nucleotide and S amino acid mutations;
+- exploratory genotype frequency-over-time visualization in Nextstrain/Auspice;
+- streamtree visualization of PEDV S genotype structure;
 - exploratory comparison of Chinese PEDV S sequences against the curated reference set.
 
 This dataset is not a substitute for manual phylogenetic review when a query sequence is recombinant, incomplete, highly divergent, or contains extensive ambiguous bases or deletions.

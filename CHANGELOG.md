@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.2.0 - 2026-05-15
+
+Added Nextstrain/Auspice genotype dynamics support.
+
+Changes:
+
+- added `auspice/china_pedv_s_genbank_tip-frequencies.json` for the Auspice frequency-over-time panel;
+- added `auspice/china_pedv_s_genbank.json` as the Nextstrain/Auspice display copy;
+- added genotype-level `pedv_genotype` stream labels for streamtree visualization;
+- updated the default Auspice view to rectangular time layout colored by PEDV genotype;
+- enabled `tree`, `frequencies`, and `entropy` panels in `tree.json`;
+- added reproducible frequency/streamtree helper script and metadata table.
+
 ## v1.1.0 - 2026-05-14
 
 Updated the dataset reference sequence from the G1 reference `JN547228.1` to the G2 reference `JX188454.1`(AJ1102).
